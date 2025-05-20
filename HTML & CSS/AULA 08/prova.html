@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amanda Pinho</title>
+  
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fdf5ed;
+      color: #4b3b44;
+    }
+
+    header {
+      background-color: #fdf5ed;
+      padding: 60px 20px 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+      font-size: 4rem; /* Aumentado */
+      color: #911c1c;
+      letter-spacing: 1px;
+    }
+
+    .highlight {
+      font-family: 'Parisienne', cursive; /* Nova fonte */
+      color: #911c1c;
+      font-size: 2rem; /* Também pode ajustar esse tamanho se quiser ainda maior */
+      margin-top: 15px;
+      display: block;
+    }
+
+    nav {
+      background-color: #a5262a;
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin: 0 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff3f3;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+      font-family: 'Playfair Display', serif;
+    }
+
+    nav a:hover {
+      color: #ffdcdc;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      color: #911c1c;
+    }
+
+    section p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.15rem;
+      line-height: 1.8;
+      color: #5c2a2a;
+    }
+
+    .button {
+      margin-top: 30px;
+      padding: 12px 28px;
+      background-color: #a5262a;
+      border: none;
+      border-radius: 30px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .button:hover {
+      background-color: #911c1c;
+    }
+
+    aside {
+      background-color: #a5262a;
+      padding: 50px 20px;
+      text-align: center;
+      width: 50%;
+      margin: 0 auto;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    aside h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: #fff0f0;
+      margin-bottom: 30px;
+    }
+
+    aside ul {
+      list-style: none;
+      padding: 0;
+      font-size: 1.1rem;
+      line-height: 2;
+      color: #fff0f0;
+      font-family: 'Georgia', serif;
+    }
+
+    .contact {
+      padding: 60px 20px;
+      background-color: #fdf5ed;
+      text-align: center;
+    }
+
+    .contact form {
+      max-width: 500px;
+      margin: 20px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .contact input,
+    .contact textarea {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      font-family: 'Georgia', serif;
+    }
+
+    .contact button {
+      background-color: #a5262a;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .contact button:hover {
+      background-color: #911c1c;
+    }
+
+    .contact p a {
+      color: #a5262a;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Playfair Display', serif;
+    }
+
+    footer {
+      background-color: #a5262a;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.95em;
+      color: #fff;
+      font-family: 'Georgia', serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Amanda Pinho</h1>
+    <span class="highlight">Design com personalidade</span>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="sobre">
+    <h2>Bem-vindo ao meu portfólio</h2>
+    <p>Sou apaixonada por design, tecnologia e experiências que conectam pessoas com boas ideias. Aqui você encontra um pouco da minha trajetória, projetos e o que me inspira a criar interfaces encantadoras, funcionais e com propósito.</p>
+    <a href="https://github.com/AmandaPinho/INFINITY_SCHOOL_DEV/tree/main/HTML%20%26%20CSS" class="button" target="_blank">Ver Projetos</a>
+  </section>
+
+  <aside id="habilidades">
+    <h3>Habilidades</h3>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>Photoshop & Illustrator</li>
+      <li>Criatividade & Estética</li>
+      <li>Atenção aos detalhes</li>
+    </ul>
+  </aside>
+
+  <section class="contact" id="contato">
+    <h2>Contato</h2>
+    <form action="mailto:amandapinho.ti@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p>
+      <a href="https://github.com/AmandaPinho" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/amanda-pinho-125234367/" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Amanda Pinho | amandapinho.ti@gmail.com
+  </footer>
+</body>
+</html>
