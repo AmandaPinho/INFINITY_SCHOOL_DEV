@@ -6,7 +6,7 @@ import random
 
 
 def lancar_dados():
-    dado= [1,2,3,4,5,6]
+    dado= list(range(1,7))
     numero1 = random.choice(dado)
     print(f'1º número sorteado: {numero1}')
     numero2 = random.choice(dado)
